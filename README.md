@@ -1,5 +1,5 @@
 # Vacancy Checker
-This project is a web application that provides job vacancies for job seekers. The project is built with the Spring Boot framework, and the database is managed by JPA.
+This project is a web application that provides job vacancies for job seekers. The first 5 pages from [arbeitnow](https://www.arbeitnow.com/) are pulled in, and then the software checks for new vacancies once an hour (set separately), and if there are any, they will be added to the database. The project is built with the Spring Boot framework, and the database is managed by JPA.
 
 # Technologies
 - Java 17
