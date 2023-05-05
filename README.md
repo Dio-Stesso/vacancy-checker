@@ -6,6 +6,7 @@ This project is a web application that provides job vacancies for job seekers. T
 - Spring Boot
 - JPA
 - H2 Database
+- JUnit test
 
 # Project Structure
 The project follows a three-layered structure consisting of the following layers:
