@@ -26,7 +26,6 @@ public class VacancyLoader {
     private final VacancyRepository repository;
 
     @Scheduled(fixedRate = HOUR)
-    @Cacheable("vacancies")
     public void loadJobs() {
         List<MyResponse> responses = IntStream.rangeClosed(1, 5)
                 .parallel()
